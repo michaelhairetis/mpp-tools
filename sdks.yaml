@@ -45,3 +45,10 @@ sdks:
     owners: []
     changelog: none
     verify: []
+
+  php:
+    repo: michaelhairetis/mpp-php
+    automation: notify
+    owners: [michaelhairetis]
+    changelog: none
+    verify: []

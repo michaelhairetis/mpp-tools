@@ -1,0 +1,21 @@
+{
+    "name": "tempo/mpp-conformance-php",
+    "description": "PHP conformance adapter for the MPP harness",
+    "type": "project",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/michaelhairetis/mpp-php"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "michaelhairetis/mpp": "^0.1"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

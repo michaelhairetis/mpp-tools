@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/adapter-manifest.schema.json",
+  "schema": 1,
+  "name": "php",
+  "language": "php",
+  "command": ["php", "adapter.php"],
+  "build": ["composer", "install", "--no-interaction", "--quiet"],
+  "cwd": ".",
+  "capabilities": [
+    "challenge.parse",
+    "challenge.format",
+    "credential.parse",
+    "credential.format",
+    "receipt.parse",
+    "receipt.format",
+    "base64url.encode",
+    "base64url.decode",
+    "challenge.id"
+  ]
+}
